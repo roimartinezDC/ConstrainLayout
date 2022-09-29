@@ -42,6 +42,9 @@
         android:layout_marginEnd="183dp"
         android:minWidth="48dp"
         android:minHeight="48dp"
+        android:text="messi?"
+        android:textOff="Messi?"
+        android:textOn="MESSI"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
@@ -56,8 +59,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/switch2"
-        app:srcCompat="@drawable/messi"
-        tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@drawable/messi" />
+        tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
